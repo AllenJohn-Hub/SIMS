@@ -102,6 +102,15 @@ can manage sales and inventory data.
 ## Overall Description
 ### Discuss system architecture
 
+  The system is designed to help store owners and staff manage sales and inventory through a web-based platform. 
+  Admins and staff use a dashboard and sales interface to access the system, which handles tasks like tracking 
+  inventory, recording sales, and generating reports.
+  All data—such as sales history and inventory records—is stored in a central database. The system also includes 
+  a QR scanner to quickly read product info and a QR printer to create labels for new items. A recommender feature 
+  suggests products to restock or promote, while a reporting tool helps store owners track business performance.
+  Overall, this setup makes daily operations faster, more accurate, and easier to manage.
+
+### Software perspective and functions
   
   
   
