@@ -1,0 +1,62 @@
+/* Dashboard Cards Styling */
+.right-content .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background: #fff;
+    cursor: pointer;
+}
+
+.right-content .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.right-content .card-body {
+    padding: 1.5rem;
+}
+
+.right-content .card-title {
+    color: #666;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.right-content .card-text {
+    color: #4a3b3a;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Dashboard Header */
+.dashboard-header {
+    margin-bottom: 2rem;
+}
+
+.dashboard-header h2 {
+    color: #4a3b3a;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+/* Recent Activity Card */
+.right-content .card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 1rem 1.5rem;
+}
+
+.right-content .card-header .card-title {
+    margin-bottom: 0;
+    color: #4a3b3a;
+    font-size: 1.1rem;
+}
+/* Stats Cards Specific Colors */
+.right-content .card:nth-child(1) .card-text { color: #4a3b3a; }  /* Total Products */
+.right-content .card:nth-child(2) .card-text { color: #28a745; }  /* Total Sales */
+.right-content .card:nth-child(3) .card-text { color: #dc3545; }  /* Low Stock */
+.right-content .card:nth-child(4) .card-text { color: #17a2b8; }  /* Today's Sales */
+

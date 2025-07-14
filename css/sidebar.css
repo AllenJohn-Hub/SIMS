@@ -1,0 +1,82 @@
+/* Styles specifically for the sidebar */
+.left-sidebar {
+    background-color: #4a3b3a; /* Dark brown */
+    color: white;
+    width: 80px; /* Initial minimized width */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    transition: width 0.3s ease; /* Smooth transition for width */
+}
+
+.left-sidebar:hover {
+    width: 250px; /* Expanded width on hover */
+}
+
+.sidebar-title {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap; /* Prevent text wrapping */
+    opacity: 0; /* Initially hide text */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    text-align: center; /* Center the text */
+}
+
+.left-sidebar:hover .sidebar-title {
+    opacity: 1; /* Show text on hover */
+}
+
+.left-sidebar .nav-link {
+    color: white; /* White text for links */
+    padding: 10px 15px; /* Adjust padding */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide text overflow */
+}
+
+.left-sidebar:hover .nav-link:hover,
+.left-sidebar .nav-link.active { /* Keep active state highlight always */
+    background-color: #5a4d4c; /* Slightly lighter brown on hover/active */
+    color: white; /* Ensure text remains white on hover/active */
+    outline: none; /* Remove outline */
+    box-shadow: none; /* Remove box shadow */
+}
+
+.left-sidebar .nav-link:focus {
+    outline: none; /* Remove outline on focus */
+    box-shadow: none; /* Remove box shadow on focus */
+}
+
+.left-sidebar .nav-link i {
+    font-size: 1.2rem; /* Adjust icon size */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.left-sidebar .nav-link span {
+    /* Style for the text part of the link */
+    display: inline-block; /* Ensure span behaves correctly with width changes */
+    opacity: 0; /* Initially hide text */
+    transition: opacity 0.1s ease 0.2s; /* Delay opacity transition slightly */
+}
+
+.left-sidebar:hover .nav-link span {
+    opacity: 1; /* Show text on hover */
+}
+
+.container-fluid > .row > .left-sidebar {
+    /* Override Bootstrap column padding if necessary */
+    padding: 0; /* Remove default column padding */
+}
+
+.left-sidebar .p-3 {
+    padding: 1rem !important; /* Keep inner padding */
+}
+
+.logo-text {
+    font-size: 24px; /* Smaller font size when minimized */
+    font-weight: bold;
+    transition: font-size 0.3s ease; /* Smooth transition for font size */
+    text-align: center; /* Center the text */
+}
+
+.left-sidebar:hover .logo-text {
+    font-size: 48px; /* Larger font size on hover */
+} 

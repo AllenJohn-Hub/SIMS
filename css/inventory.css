@@ -1,0 +1,109 @@
+/* Basic styles for the inventory page layout */
+
+.inventory-container {
+    display: flex;
+    gap: 20px;
+}
+
+.inventory-main-content {
+    flex-grow: 1;
+    background-color: #fff; /* White background for the main content area */
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    overflow-x: auto; /* Add scroll for tables if needed */
+}
+
+.inventory-right-panel {
+    width: 300px; /* Adjust as needed */
+    flex-shrink: 0;
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.inventory-right-panel .search-bar .form-control {
+    border-radius: 20px; /* Rounded search bar */
+    padding-left: 15px;
+}
+
+.inventory-right-panel h5 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 600;
+}
+
+.inventory-right-panel .list-unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inventory-right-panel .list-item {
+    padding: 10px 5px; /* Adjusted padding */
+    border-bottom: 1px solid #eee;
+    color: #555;
+    cursor: pointer;
+}
+
+.inventory-right-panel .list-item:last-child {
+    border-bottom: none;
+}
+
+.inventory-right-panel .list-item a {
+    text-decoration: none;
+    color: #555;
+    display: block; /* Make the whole list item clickable */
+}
+
+.inventory-right-panel .list-item:hover {
+    background-color: #e9ecef; /* Highlight on hover */
+}
+
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.inventory-table thead th {
+    background-color: #f2f2f2; /* Light grey header background */
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+    color: #555;
+}
+
+.inventory-table tbody td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle; /* Vertically align content */
+}
+
+.inventory-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row color */
+}
+
+.inventory-table tbody tr:hover {
+    background-color: #e9ecef; /* Highlight row on hover */
+}
+
+/* Styling for icons and elements within the table */
+.inventory-item-icon {
+    font-size: 1.5rem; /* Adjust icon size */
+    color: #4a3b3a; /* Icon color */
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.inventory-actions .btn {
+    margin-right: 5px;
+}
+
+.inventory-actions .btn:last-child {
+    margin-right: 0;
+}
