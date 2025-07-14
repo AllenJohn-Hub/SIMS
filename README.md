@@ -10,20 +10,15 @@ Capstone Adviser: Asst. Prof. Benjie R. Samonte
 ## Introduction/Summary
 ### Purpose
 
-  This study aims to help small-scale clothing enterprises in Lian Public Market improve how they manage their businesses. 
-  Many of these store owners still rely on manual methods for tracking sales and inventory, which often lead to errors, delays, 
-  and difficulties in keeping up with daily operations. To solve this, the researchers and developer will develop a digital system 
-  that will automate sales recording , inventory tracking, and restocking alerts. One local store has been chosen to test the system, 
-  with the goal of showing how it can make business operations more efficient, accurate, and easier to manage, especially for small
-  business owners who want to grow and make better decisions using clear and updated data.
+This project aims to help small Ready-to-Wear (RTW) clothing store owners in Lian Public Market improve how they manage their sales and inventory. Many of them still use manual methods, which often lead to errors and slow down daily operations. By introducing a digital system, the project will automate sales tracking, inventory monitoring, and restocking alerts. The goal is to make store management easier, more accurate, and more efficient so business owners can focus on growing their shops and making better decisions based on real-time data.
+
 
 ### Scope 
 
-  This project focuses on building a Sales and Inventory management System (SIMS) specifically for small clothing enterprises in Lian
-  public Market. It aims to help store owners track their sales and inventory more easily and accuratelty. The systemincludes a web 
-  platform for full inventory and sales management, and mobile app for store staff to handle transactions and update inventory real-time.
-  Features like QR code scanning, automatic low-stock alerts, and daily to monthly sales reports are included to make operations smoother 
-  and more efficient. One local store will be used for testing to see how well the system works in a real setting.
+This project focuses on building a Sales and Inventory Management System (SIMS) with an added e-commerce feature for small clothing stores in Lian Public Market. The system will help store owners track inventory and sales in real-time while allowing customers to view items online and reserve them through a **click-and-collect** setup.
+
+Store owners will be alerted when stock is low, and the system will use QR code scanning to speed up checkout and keep inventory accurate. A **web-based platform** will be used for managing the store, while a **mobile app** will support staff in handling transactions and inventory updates. One store in Lian will be used for testing to check how well the system works in real business operations.
+
 
 
 ### Definitions, acronyms and abbreviations
@@ -33,69 +28,37 @@ Management System Integrating E-Commerce for Small-Scale Clothing Enterprises in
 are operationally and conceptually defined to establish a common understanding of
 terms that may have different interpretations in other contexts.
 
-- **Automated Alerts** – System-generated notifications that inform store owners and
-staff about critical updates, such as low stock levels, sales performance summaries,
-or discrepancies in inventory records.
+- **Automated Alerts** – System-generated notifications that inform store owners and staff about critical updates, such as low stock levels, sales performance summaries, or discrepancies in inventory records.
 
-- **Barcode-Based Product Identification** – The use of barcodes and scanners to
-uniquely identify and track products, improving sales efficiency and reducing
-human errors in manual inventory recording.
+- **Barcode-Based Product Identification** – The use of barcodes and scanners to uniquely identify and track products, improving sales efficiency and reducing human errors in manual inventory recording.
 
-- **Business Intelligence (BI) Analytics** – The application of data analysis tools to
-assess sales patterns, customer preferences, and operational efficiency, aiding
-business owners in making informed decisions.
+- **Business Intelligence (BI)** – The application of business analysis tools to asses the real-time monitoring, sales reports, system's decision making, and data performance.
 
-- **Cloud-Based Backup** – The optional capability of storing system data in a secure
-cloud platform to prevent data loss and enable remote access to sales and inventory
-records.
+- **Cloud-Based Backup** – – It is a cloud platform that stores the system data for secure and large-scale data protection to prevent data loss and enable remote access to sales and inventory records.
 
-- **Data Accuracy** – The reliability and correctness of stored and processed data within
-the system, reducing discrepancies and ensuring precise financial and inventory
-records.
+- **Data Accuracy** – Refers to the reliability and correctness of stored and processed data within the system, minimizing inconsistencies and ensuring accurate financial and inventory records.
 
-- **Digital Sales Reporting** – The automated generation of reports that summarize
-sales performance, revenue insights, and inventory status, aiding store owners in
-strategic decision-making.
+- **Digital Sales Reporting** – The automated generation of reports which gives an overview of sales performance, revenue insights, and inventory status, enabling store owners in strategic decision-making.
 
-- **Inventory Tracking** – The systematic process of monitoring and recording stock
-levels, incoming shipments, and outgoing sales to maintain accurate inventory
-records and prevent stock discrepancies.
+- **Inventory Tracking** – An organized method for tracking and recording stock levels, incoming shipments, and outgoing sales to keep inventory records accurate and minimize stock errors.
 
-- **Point of Sale (POS) System** – A digital platform used to complete sales
-transactions, record purchases, and process payments, often integrated with
-inventory management for real-time stock updates.
+- **Point of Sale (POS) System** – This refers to digital platform designed to execute sales transactions, record purchases, and process payments, commonly associated with inventory management for real-time stock updates.
 
-- **QR Code Scanner** – A digital device or software application that scans Quick
-Response (QR) codes to quickly retrieve product information, facilitate sales
-transactions, and update inventory databases in real time.
+- **QR Code Scanner** – A digital system or software-based tool that scans QR codes in every product to quickly retrieve product information, assist sales transactions, and update inventory databases in real-time.
 
-- **Ready-to-Wear (RTW) Clothing Store** – A retail business that sells pre-
-manufactured garments in standard sizes, offering ready-to-wear apparel to
-customers without requiring further tailoring or customization.
+- **Ready-to-Wear (RTW) Clothing Store** – Refers to a retail business that sells ready-made clothing in standard sizes, offering ready-to-wear apparel to customers without requiring further tailoring or customization.
+  
+- **Revenue Trends** – Analyzed trends in sales data over a specific period to evaluate financial performance, determine periods of highest sales, and forecast future revenue growth.
 
-- **Revenue Trends** – Patterns in sales data analyzed over a specific period to evaluate
-financial performance, identify peak sales periods, and forecast future revenue
-growth.
+- **Sales and Inventory Management System (SIMS)** – Digital system designed to automate tracking of sales transactions and inventory levels in real-time, improving efficiency, accuracy, and business decision-making for store owners.
+  
+- **Stock Replenishment** – A product restocking procedure when inventory levels drop to a predetermined threshold to ensure continuous availability of goods for customers.
 
-- **Sales and Inventory Management System (SIMS)** – A computerized system that
-automates the tracking of sales transactions and inventory levels in real time,
-improving efficiency, accuracy, and business decision-making for store owners.
+- **System Usability** – Refers to the user-friendliness and accessibility of the SIMS interface, designed to be user-friendly for store owners and staff with minimal technical expertise.
 
-- **Stock Replenishment** – The process of restocking products when inventory levels
-drop to a predetermined threshold to ensure continuous availability of goods for
-customers.
-
-- **System Usability** – The ease of use and accessibility of the SIMS interface,
-designed to be user-friendly for store owners and staff with minimal technical
-expertise.
-
-- **Transaction Logging** – The automated recording of sales and inventory changes
-within the system, providing a traceable history of business activities for future
-reference and auditing.
-
-- **User Authentication** – Security measures implemented within the system to restrict
-access to authorized personnel, ensuring that only store owners and designated staff
-can manage sales and inventory data.
+- **Transaction Logging** – A computerized record keeping for sales and inventory changes within the system, maintaining a recordable history of business activities for future reference and auditing.
+  
+- **User Authentication** – Security measures implemented within the system to restrict access to authorized personnel, ensuring that only store owners and designated staff can manage sales and inventory data.
 
 
 
