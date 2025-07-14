@@ -1,6 +1,14 @@
-# RTW Inventory Management System
+# SIMS: Development of Sales and Inventory Management System Integrating E-Commerce for Small-Scale Clothing Enterprises in Lian Public Makret
 
-A modern, responsive inventory management system with QR code functionality, built with PHP, MySQL, and Bootstrap 5.
+Mar-Jay C. Alegar  
+Allen John Y. Desacola  
+Hanna Joyce M. Ilao  
+
+Capstone Adviser: Asst. Prof. Benjie R. Samonte  
+
+
+## Introduction/Summary
+#### A modern, responsive inventory management system with QR code functionality, built with PHP, MySQL, and Bootstrap 5.
 
 ## 🚀 Features
 
