@@ -199,29 +199,28 @@ It helps explain how information is collected, updated, and used to generate rep
 
 ## Specific Requirements (at least 50%)
 
-
-### Dashboard Features
+#### Dashboard Features
 
 <img width="836" height="395" alt="image" src="https://github.com/user-attachments/assets/263eff28-e271-4e72-8c33-5d9fc60ae56f" />
 
-### Inventory Features
+#### Inventory Features
 
 <img width="831" height="395" alt="image" src="https://github.com/user-attachments/assets/3af61949-7e4b-4af5-9295-bff699cc5b72" />
 
-### Sales Report Features
+#### Sales Report Features
 
 <img width="830" height="395" alt="image" src="https://github.com/user-attachments/assets/8310139b-2d61-4662-926b-0ab71422d569" />
 
-### QR Printing Features
+#### QR Printing Features
 
 <img width="829" height="395" alt="image" src="https://github.com/user-attachments/assets/a03dddf1-84a8-404e-9ed1-243b42d26f02" />
 
-### Scan QR Features
+#### Scan QR Features
 
 <img width="832" height="395" alt="image" src="https://github.com/user-attachments/assets/f2f9dc8d-5f2a-491a-b4c4-5feeb6ce0451" />
 
 
-### 📁 File Structure
+#### 📁 File Structure
 
 ```
 CAPSTONE/
