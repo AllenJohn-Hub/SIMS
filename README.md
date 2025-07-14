@@ -177,10 +177,12 @@ SIMS serves as the central system, handling all data input and output to make su
 #### Data Flow Diagram
 
 
+
 The Data Flow Diagram (DFD) shows how data moves through the system and how different parts work together. 
 It maps out the key processes involved in managing products, inventory, and sales records.
 The diagram also shows where data is stored and how it flows between the system and users like the Admin and Staff. 
 It helps explain how information is collected, updated, and used to generate reports—making sure everything is accurate and organized for smooth business operations.
+
 
 
 ### Constraints, limitation and dependencies
