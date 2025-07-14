@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTW Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap5/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <!-- Bootstrap Icons CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row min-vh-100 align-items-stretch">
+            <!-- Left Sidebar -->
+            <div class="col-md-3 left-sidebar min-vh-100">
+                <div class="p-3">
+                    <div class="sidebar-title">RTW TABS CONTAINER</div>
+                    <h1 class="logo-text text-white mb-4">RTW</h1>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" data-content-url="dashboard.html"><i class="bi bi-grid-1x2 me-2"></i> <span>Dashboard</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-content-url="inventory.html"><i class="bi bi-box-seam me-2"></i> <span>Inventory</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-content-url="sales-report-content.html"><i class="bi bi-graph-up me-2"></i> <span>Sales Report</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-content-url="trends-content.html"><i class="bi bi-trend-up me-2"></i> <span>Trends</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-content-url="qr-print-content.html"><i class="bi bi-printer me-2"></i> <span>QR Print</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-content-url="scan-content.html"><i class="bi bi-qr-code-scan me-2"></i> <span>Scan</span></a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#" data-content-url="users-content.html"><i class="bi bi-person me-2"></i> <span>Users</span></a>
+                        </li>
+                         <li class="nav-item mt-auto">
+                            <a class="nav-link" href="#" data-content-url="logout.html"><i class="bi bi-box-arrow-left me-2"></i> <span>Logout</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right Content Area -->
+            <div class="col-md-9 right-content">
+                <!-- Content will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sidebarLinks = document.querySelectorAll('.left-sidebar .nav-link');
+            const rightContentArea = document.querySelector('.right-content');
+
+            // Function to load content
+            function loadContent(url) {
+                if (url) {
+                    fetch(url)
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error(`HTTP error! status: ${response.status}`);
+                            }
+                            return response.text();
+                        })
+                        .then(html => {
+                            rightContentArea.innerHTML = html;
+                        })
+                        .catch(error => {
+                            console.error('Error loading content:', error);
+                            rightContentArea.innerHTML = '<p>Error loading content.</p>';
+                        });
+                } else {
+                    rightContentArea.innerHTML = ''; // Clear content if no URL
+                }
+            }
+
+            // Add click event listeners to sidebar links
+            sidebarLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault(); // Prevent default link behavior
+
+                    // Remove active class from all links
+                    sidebarLinks.forEach(navLink => navLink.classList.remove('active'));
+
+                    // Add active class to the clicked link
+                    this.classList.add('active');
+
+                    // Load content based on data-content-url attribute
+                    const contentUrl = this.getAttribute('data-content-url');
+                    loadContent(contentUrl);
+                });
+            });
+
+            // Load default content (e.g., Dashboard) on page load
+            const initialLink = document.querySelector('.left-sidebar .nav-link.active');
+            if (initialLink) {
+                loadContent(initialLink.getAttribute('data-content-url'));
+            } else {
+                 // If no active link, load content from the first link or a default
+                 const firstLink = document.querySelector('.left-sidebar .nav-link');
+                 if(firstLink) {
+                     firstLink.classList.add('active');
+                     loadContent(firstLink.getAttribute('data-content-url'));
+                 }
+            }
+        });
+    </script>
+</body>
+</html> 

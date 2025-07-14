@@ -1,5 +1,157 @@
-# SIMS: Development of Sales and Inventory Management System Integrating E-Commerce For Small-Scale Enterprises in Lian Public Market
+# RTW Inventory Management System
 
-Mar-Jay C. Alegar,
-Allen John Y. Desacola,
-Hanna Joyce M. Ilao
+A modern, responsive inventory management system with QR code functionality, built with PHP, MySQL, and Bootstrap 5.
+
+## 🚀 Features
+
+### Enhanced Dashboard
+- **Real-time Statistics**: Dynamic data showing total products, inventory value, low stock items, and out-of-stock items
+- **Interactive Charts**: Category distribution chart using Chart.js
+- **Quick Actions**: Easy access to common tasks like adding items, printing QR codes, and viewing reports
+- **Recent Activity**: Shows recently added items with timestamps
+- **Top Items**: Displays highest value items in inventory
+- **Live Clock**: Real-time date and time display
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+
+### Inventory Management
+- Add, edit, and delete inventory items
+- Automatic QR code generation for each item
+- Category-based organization
+- Stock level tracking
+- Price management
+- Search and filter functionality
+
+### QR Code System
+- Automatic QR code generation for inventory items
+- QR code printing functionality
+- QR code scanning capability
+- Download QR codes as images
+
+## 🛠️ Installation
+
+1. **Setup Database**
+   ```sql
+   -- Import the database schema
+   mysql -u root -p < database_schema.sql
+   ```
+
+2. **Configure Database Connection**
+   - Edit `config.php` with your database credentials
+   - Default database name: `sims`
+
+3. **Web Server Setup**
+   - Place files in your web server directory (e.g., `htdocs` for XAMPP)
+   - Ensure PHP and MySQL are running
+
+4. **Default Login**
+   - Username: `admin`
+   - Password: `admin123`
+
+## 📊 Dashboard Features
+
+### Statistics Cards
+- **Total Products**: Count of all inventory items
+- **Total Inventory Value**: Sum of (stock × price) for all items
+- **Low Stock Items**: Items with stock less than 10
+- **Out of Stock**: Items with zero stock
+
+### Interactive Elements
+- **Category Chart**: Doughnut chart showing product distribution by category
+- **Quick Actions**: One-click access to common functions
+- **Recent Items**: Latest 5 items added to inventory
+- **Top Items**: Highest value items based on (stock × price)
+
+### Real-time Updates
+- Live clock display
+- Dynamic data loading
+- Smooth animations and transitions
+
+## 🎨 Design Features
+
+### Modern UI/UX
+- Gradient backgrounds and modern card designs
+- Smooth hover effects and transitions
+- Responsive grid layout
+- Custom scrollbars
+- Bootstrap 5 components
+
+### Color Scheme
+- Primary: Purple gradient (#667eea to #764ba2)
+- Success: Green (#28a745)
+- Warning: Yellow/Orange (#ffc107)
+- Danger: Red (#dc3545)
+- Neutral: Gray tones
+
+## 📱 Responsive Design
+
+The dashboard is fully responsive and optimized for:
+- **Desktop**: Full feature set with side-by-side layouts
+- **Tablet**: Adjusted spacing and card layouts
+- **Mobile**: Stacked layout with touch-friendly buttons
+
+## 🔧 Technical Stack
+
+- **Backend**: PHP 7.4+
+- **Database**: MySQL 5.7+
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Framework**: Bootstrap 5
+- **Charts**: Chart.js
+- **Icons**: Bootstrap Icons
+- **QR Codes**: External API (qrserver.com)
+
+## 📁 File Structure
+
+```
+CAPSTONE/
+├── assets/                 # Static assets
+├── bootstrap5/            # Bootstrap framework
+├── css/                   # Custom stylesheets
+│   ├── dashboard.css      # Dashboard-specific styles
+│   ├── inventory.css      # Inventory page styles
+│   └── style.css          # Global styles
+├── js/                    # JavaScript files
+├── libraries/             # Third-party libraries
+├── qr_codes/              # Generated QR code images
+├── config.php             # Database configuration
+├── dashboard.php          # Enhanced dashboard
+├── inventory.php          # Inventory management
+├── sidebar.php            # Main layout template
+└── database_schema.sql    # Database structure
+```
+
+## 🚀 Getting Started
+
+1. Start your web server (XAMPP, WAMP, etc.)
+2. Navigate to the project URL
+3. Login with default credentials
+4. Start adding inventory items
+5. Explore the dashboard features
+
+## 🔄 Recent Updates
+
+### Dashboard Improvements
+- ✅ Added real-time statistics from database
+- ✅ Implemented interactive category chart
+- ✅ Created quick action buttons
+- ✅ Added recent activity feed
+- ✅ Enhanced visual design with modern UI
+- ✅ Improved responsive layout
+- ✅ Added live clock functionality
+- ✅ Implemented smooth animations
+
+## 📞 Support
+
+For questions or issues, please check:
+1. Database connection settings in `config.php`
+2. PHP error logs for debugging
+3. Browser console for JavaScript errors
+4. Ensure all required files are present
+
+## 🔮 Future Enhancements
+
+- Sales tracking and reporting
+- User management system
+- Advanced analytics
+- Export functionality
+- Email notifications
+- Mobile app integration 
