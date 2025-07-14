@@ -112,7 +112,30 @@ can manage sales and inventory data.
 
 ### Software perspective and functions
   
-  
+  #### Software Needed in the Development
+
+| *Software*             | *Description*                                     | *Specification*                               |
+|--------------------------|-----------------------------------------------------|--------------------------------------------------|
+| Operating System         | Development & testing environment                  | Windows 10                                       |
+| JavaScript               | Main language for mobile app development           | ECMAScript 2023                                  |
+| Visual Studio Code       | Platform for coding and debugging                  | Version 1.75                                     |
+| MySQL                    | Stores system data                                 | Version 8.0                                      |
+| React.js                 | Used for developing the web-based system           | Latest Version                                   |
+| React Native             | Mobile application interface                       | Version 0.72                                     |
+| Node.js with Express.js  | Handles server-side logic and API requests         | Node.js 23                                       |
+| QR Code Scanner          | Enables inventory updates via QR scanning          | React Native Vision Camera, QR Code Scanner      |
+| JWT & Encrypted Storage  | Manages user access and secures data               | Version 0.12.1                                   |
+
+
+The system is built using tools that make it efficient, secure, and easy to use. Windows 10 is used as the main 
+operating system to ensure a stable development environment. JavaScript is the main programming language, 
+supported by Visual Studio Code for writing and debugging code.
+For the front end, React.js is used for the web version and React Native for the mobile app, making the system 
+accessible on different devices. The back end uses Node.js with Express.js to handle system logic and communication 
+with the database. MySQL stores important data like sales records, inventory, and user info.
+To make sales and inventory updates faster, the system includes a QR scanner using React Native Vision Camera. 
+Security is handled by JWT for user login and encrypted storage to protect sensitive data. All these tools work 
+together to support small clothing store owners with a reliable and modern system.
   
 ### Enhanced Dashboard
 - **Real-time Statistics**: Dynamic data showing total products, inventory value, low stock items, and out-of-stock items
