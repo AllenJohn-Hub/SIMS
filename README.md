@@ -199,102 +199,29 @@ It helps explain how information is collected, updated, and used to generate rep
 
 ## Specific Requirements (at least 50%)
 
-### Enhanced Dashboard
-- **Real-time Statistics**: Dynamic data showing total products, inventory value, low stock items, and out-of-stock items
-- **Interactive Charts**: Category distribution chart using Chart.js
-- **Quick Actions**: Easy access to common tasks like adding items, printing QR codes, and viewing reports
-- **Recent Activity**: Shows recently added items with timestamps
-- **Top Items**: Displays highest value items in inventory
-- **Live Clock**: Real-time date and time display
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
 
-### Inventory Management
-- Add, edit, and delete inventory items
-- Automatic QR code generation for each item
-- Category-based organization
-- Stock level tracking
-- Price management
-- Search and filter functionality
+### Dashboard Features
 
-### QR Code System
-- Automatic QR code generation for inventory items
-- QR code printing functionality
-- QR code scanning capability
-- Download QR codes as images
+<img width="836" height="395" alt="image" src="https://github.com/user-attachments/assets/263eff28-e271-4e72-8c33-5d9fc60ae56f" />
 
-## 🛠️ Installation
+### Inventory Features
 
-1. **Setup Database**
-   ```sql
-   -- Import the database schema
-   mysql -u root -p < database_schema.sql
-   ```
+<img width="831" height="395" alt="image" src="https://github.com/user-attachments/assets/3af61949-7e4b-4af5-9295-bff699cc5b72" />
 
-2. **Configure Database Connection**
-   - Edit `config.php` with your database credentials
-   - Default database name: `sims`
+### Sales Report Features
 
-3. **Web Server Setup**
-   - Place files in your web server directory (e.g., `htdocs` for XAMPP)
-   - Ensure PHP and MySQL are running
+<img width="830" height="395" alt="image" src="https://github.com/user-attachments/assets/8310139b-2d61-4662-926b-0ab71422d569" />
 
-4. **Default Login**
-   - Username: `admin`
-   - Password: `admin123`
+### QR Printing Features
 
-## 📊 Dashboard Features
+<img width="829" height="395" alt="image" src="https://github.com/user-attachments/assets/a03dddf1-84a8-404e-9ed1-243b42d26f02" />
 
-### Statistics Cards
-- **Total Products**: Count of all inventory items
-- **Total Inventory Value**: Sum of (stock × price) for all items
-- **Low Stock Items**: Items with stock less than 10
-- **Out of Stock**: Items with zero stock
+### Scan QR Features
 
-### Interactive Elements
-- **Category Chart**: Doughnut chart showing product distribution by category
-- **Quick Actions**: One-click access to common functions
-- **Recent Items**: Latest 5 items added to inventory
-- **Top Items**: Highest value items based on (stock × price)
+<img width="832" height="395" alt="image" src="https://github.com/user-attachments/assets/f2f9dc8d-5f2a-491a-b4c4-5feeb6ce0451" />
 
-### Real-time Updates
-- Live clock display
-- Dynamic data loading
-- Smooth animations and transitions
 
-## 🎨 Design Features
-
-### Modern UI/UX
-- Gradient backgrounds and modern card designs
-- Smooth hover effects and transitions
-- Responsive grid layout
-- Custom scrollbars
-- Bootstrap 5 components
-
-### Color Scheme
-- Primary: Purple gradient (#667eea to #764ba2)
-- Success: Green (#28a745)
-- Warning: Yellow/Orange (#ffc107)
-- Danger: Red (#dc3545)
-- Neutral: Gray tones
-
-## 📱 Responsive Design
-
-The dashboard is fully responsive and optimized for:
-- **Desktop**: Full feature set with side-by-side layouts
-- **Tablet**: Adjusted spacing and card layouts
-- **Mobile**: Stacked layout with touch-friendly buttons
-
-## 🔧 Technical Stack
-
-- **Backend**: PHP 7.4+
-- **Database**: MySQL 5.7+
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Framework**: Bootstrap 5
-- **Charts**: Chart.js
-- **Icons**: Bootstrap Icons
-- **QR Codes**: External API (qrserver.com)
-
-## 📁 File Structure
+### 📁 File Structure
 
 ```
 CAPSTONE/
@@ -314,39 +241,3 @@ CAPSTONE/
 └── database_schema.sql    # Database structure
 ```
 
-## 🚀 Getting Started
-
-1. Start your web server (XAMPP, WAMP, etc.)
-2. Navigate to the project URL
-3. Login with default credentials
-4. Start adding inventory items
-5. Explore the dashboard features
-
-## 🔄 Recent Updates
-
-### Dashboard Improvements
-- ✅ Added real-time statistics from database
-- ✅ Implemented interactive category chart
-- ✅ Created quick action buttons
-- ✅ Added recent activity feed
-- ✅ Enhanced visual design with modern UI
-- ✅ Improved responsive layout
-- ✅ Added live clock functionality
-- ✅ Implemented smooth animations
-
-## 📞 Support
-
-For questions or issues, please check:
-1. Database connection settings in `config.php`
-2. PHP error logs for debugging
-3. Browser console for JavaScript errors
-4. Ensure all required files are present
-
-## 🔮 Future Enhancements
-
-- Sales tracking and reporting
-- User management system
-- Advanced analytics
-- Export functionality
-- Email notifications
-- Mobile app integration 
