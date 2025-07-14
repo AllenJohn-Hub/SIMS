@@ -8,7 +8,7 @@ Capstone Adviser: Asst. Prof. Benjie R. Samonte
 
 
 ## Introduction/Summary
-#### Purpose
+### Purpose
 
   This study aims to help small-scale clothing enterprises in Lian Public Market improve how they manage their businesses. 
   Many of these store owners still rely on manual methods for tracking sales and inventory, which often lead to errors, delays, 
@@ -17,7 +17,17 @@ Capstone Adviser: Asst. Prof. Benjie R. Samonte
   with the goal of showing how it can make business operations more efficient, accurate, and easier to manage, especially for small
   business owners who want to grow and make better decisions using clear and updated data.
 
+### Scope 
 
+  This project focuses on building a Sales and Inventory management System (SIMS) specifically for small clothing enterprises in Lian
+  public Market. IOt aims to help store owners track their sales and inventory more easily and accuratelty. The systemincludes a web 
+  platform for full inventory and sales management, and mobile app for store staff to handle transactions and update inventory real-time.
+  Features like QR code scanning, automatic low-stock alerts, and daily to monthly sales reports are included to make operations smoother 
+  and more efficient. One local store will be used for testing to see how well the system works in a real setting.
+
+
+###
+  
 ### Enhanced Dashboard
 - **Real-time Statistics**: Dynamic data showing total products, inventory value, low stock items, and out-of-stock items
 - **Interactive Charts**: Category distribution chart using Chart.js
