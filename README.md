@@ -8,9 +8,15 @@ Capstone Adviser: Asst. Prof. Benjie R. Samonte
 
 
 ## Introduction/Summary
-#### A modern, responsive inventory management system with QR code functionality, built with PHP, MySQL, and Bootstrap 5.
+#### Purpose
 
-## 🚀 Features
+  This study aims to help small-scale clothing enterprises in Lian Public Market improve how they manage their businesses. 
+  Many of these store owners still rely on manual methods for tracking sales and inventory, which often lead to errors, delays, 
+  and difficulties in keeping up with daily operations. To solve this, the researchers and developer will develop a digital system 
+  that will automate sales recording , inventory tracking, and restocking alerts. One local store has been chosen to test the system, 
+  with the goal of showing how it can make business operations more efficient, accurate, and easier to manage, especially for small
+  business owners who want to grow and make better decisions using clear and updated data.
+
 
 ### Enhanced Dashboard
 - **Real-time Statistics**: Dynamic data showing total products, inventory value, low stock items, and out-of-stock items
