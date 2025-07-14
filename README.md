@@ -99,6 +99,10 @@ can manage sales and inventory data.
 
 
 
+## Overall Description
+### Discuss system architecture
+
+  
   
   
 ### Enhanced Dashboard
