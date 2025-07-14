@@ -102,6 +102,9 @@ can manage sales and inventory data.
 ## Overall Description
 ### Discuss system architecture
 
+<img width="872" height="567" alt="image" src="https://github.com/user-attachments/assets/9eaf920c-737e-418c-84c1-8e6661bb7751" />
+
+
   The system is designed to help store owners and staff manage sales and inventory through a web-based platform. 
   Admins and staff use a dashboard and sales interface to access the system, which handles tasks like tracking 
   inventory, recording sales, and generating reports.
@@ -136,7 +139,64 @@ with the database. MySQL stores important data like sales records, inventory, an
 To make sales and inventory updates faster, the system includes a QR scanner using React Native Vision Camera. 
 Security is handled by JWT for user login and encrypted storage to protect sensitive data. All these tools work 
 together to support small clothing store owners with a reliable and modern system.
-  
+
+### Add use case characteristics and other diagrams
+
+#### Use Case Diagram
+
+<img width="899" height="898" alt="image" src="https://github.com/user-attachments/assets/02e2e9fe-8352-448c-b7d8-61303e9dd63b" />
+
+The Use Case Diagram gives a clear view of how users interact with the Sales and Inventory Management System. 
+It highlights two main users: the Store Owner and the Staff. Each of them has access to specific tasks within the system.
+The diagram groups all system functions inside a blue boundary, showing they are part of the system’s main features. 
+Tasks like managing inventory, handling sales transactions, and viewing reports are shown as ovals, representing the 
+key actions users can perform. Arrows between the users and these tasks indicate what each role can do.
+Overall, this diagram helps explain how the system supports day-to-day business activities by showing who does what in a simple, visual way.
+
+
+#### Requirements Analysis
+
+<img width="747" height="456" alt="image" src="https://github.com/user-attachments/assets/de03c2ae-18d0-4477-aa03-d40f1991285f" />
+
+The system is designed to handle key business operations efficiently and securely. It includes secure user login, inventory management, 
+and sales processing. It can generate QR codes for new products, track sales automatically, and provide real-time sales and inventory reports.
+To support better decision-making, the system offers restocking suggestions based on sales trends and sends alerts when stock is low. 
+All data is regularly synced and backed up, ensuring both security and easy access when needed.
+
+
+#### Context Diagram
+
+<img width="951" height="387" alt="image" src="https://github.com/user-attachments/assets/89b2d0b1-5393-4627-a8a6-34bed322e86c" />
+
+The context diagram shows how the Sales and Inventory Management System (SIMS) connects and exchanges data with its two main users: Admin and Staff. 
+The Admin manages product information and receives important reports like sales trends, stock lists, and overall sales summaries to help with decision-making. 
+The Staff enters product data and checks the stock list to keep track of inventory.
+SIMS serves as the central system, handling all data input and output to make sure sales and inventory information stays accurate and up-to-date.
+
+
+#### Data Flow Diagram
+
+
+The Data Flow Diagram (DFD) shows how data moves through the system and how different parts work together. 
+It maps out the key processes involved in managing products, inventory, and sales records.
+The diagram also shows where data is stored and how it flows between the system and users like the Admin and Staff. 
+It helps explain how information is collected, updated, and used to generate reports—making sure everything is accurate and organized for smooth business operations.
+
+
+### Constraints, limitation and dependencies
+
+  While the system offers helpful features for sales and inventory management, it also has some limitations. 
+  It is designed specifically for clothing retailers, so it may not work well for other business types without changes. 
+  The system only supports basic financial reports and does not include advanced accounting, payroll, or supplier management, which store owners must handle separately.
+  QR code generation is available, but the system does not allow direct input of QR tag details, and it does not automate 
+  BIR ledger or official receipts due to compliance rules. The mobile app is limited to processing transactions and does not support full business management features.
+  Since the system depends on internet connectivity for real-time updates, it may not function properly in areas with unstable connections. 
+  Despite these limitations, the project is focused on helping RTW store owners in Lian Public Market improve their daily operations. 
+  Future updates could include features for broader business needs like supplier tracking, multi-store management, and more detailed financial tools.
+
+
+## Specific Requirements (at least 50%)
+
 ### Enhanced Dashboard
 - **Real-time Statistics**: Dynamic data showing total products, inventory value, low stock items, and out-of-stock items
 - **Interactive Charts**: Category distribution chart using Chart.js
