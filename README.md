@@ -10,14 +10,17 @@ Capstone Adviser: Asst. Prof. Benjie R. Samonte
 ## Introduction/Summary
 ### Purpose
 
-This project aims to help small Ready-to-Wear (RTW) clothing store owners in Lian Public Market improve how they manage their sales and inventory. Many of them still use manual methods, which often lead to errors and slow down daily operations. By introducing a digital system, the project will automate sales tracking, inventory monitoring, and restocking alerts. The goal is to make store management easier, more accurate, and more efficient so business owners can focus on growing their shops and making better decisions based on real-time data.
+This project aims to help small RTW (Ready-to-Wear) clothing store owners in Lian Public Market improve the way they manage their sales and inventory. Many of them still rely on manual processes, which often lead to errors and inefficiencies. To solve this, the researchers developed a digital system that automates sales tracking, inventory monitoring, and restocking alerts.
 
+The system also includes a basic click-and-collect feature, allowing customers to browse products online, reserve items, and pick them up in-store giving small businesses a way to offer online convenience without needing full delivery services. Overall, the goal is to support store owners in streamlining daily operations, making better decisions, and adapting to modern retail trends.
 
 ### Scope 
 
-This project focuses on building a Sales and Inventory Management System (SIMS) with an added e-commerce feature for small clothing stores in Lian Public Market. The system will help store owners track inventory and sales in real-time while allowing customers to view items online and reserve them through a **click-and-collect** setup.
+This project involves creating a Sales and Inventory Management System (SIMS) with an added e-commerce feature for small clothing stores in Lian Public Market. The system will help store owners manage inventory and sales in real-time, reduce errors, and improve day-to-day operations.
 
-Store owners will be alerted when stock is low, and the system will use QR code scanning to speed up checkout and keep inventory accurate. A **web-based platform** will be used for managing the store, while a **mobile app** will support staff in handling transactions and inventory updates. One store in Lian will be used for testing to check how well the system works in real business operations.
+It will include a QR code scanner for faster checkouts, automated low-stock alerts, and real-time sales reports. A key feature is the click-and-collect setup, where customers can browse and reserve products online, then pay when they pick them up at the store.
+
+The system will have a web platform for store owners to manage the business and a mobile app for staff to handle transactions and update inventory. One local store will be used to test the system's usability and effectiveness in a real retail setting.
 
 
 
@@ -49,6 +52,10 @@ terms that may have different interpretations in other contexts.
 - **Ready-to-Wear (RTW) Clothing Store** – Refers to a retail business that sells ready-made clothing in standard sizes, offering ready-to-wear apparel to customers without requiring further tailoring or customization.
   
 - **Revenue Trends** – Analyzed trends in sales data over a specific period to evaluate financial performance, determine periods of highest sales, and forecast future revenue growth.
+  
+- **Click-and-Collect** – A feature of the e-commerce module that handles the viewing, and reservation of products through online.
+  
+- **E-Commerce Integration** – The addition of digital component that gives of the functionality of viewing and adding of products through online.
 
 - **Sales and Inventory Management System (SIMS)** – Digital system designed to automate tracking of sales transactions and inventory levels in real-time, improving efficiency, accuracy, and business decision-making for store owners.
   
