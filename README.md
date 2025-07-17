@@ -72,16 +72,14 @@ terms that may have different interpretations in other contexts.
 ## Overall Description
 ### Discuss system architecture
 
-<img width="872" height="567" alt="image" src="https://github.com/user-attachments/assets/9eaf920c-737e-418c-84c1-8e6661bb7751" />
+<img width="871" height="525" alt="image" src="https://github.com/user-attachments/assets/11ba3bb4-99d9-4154-9eb5-9e84a52335b0" />
 
 
-  The system is designed to help store owners and staff manage sales and inventory through a web-based platform. 
-  Admins and staff use a dashboard and sales interface to access the system, which handles tasks like tracking 
-  inventory, recording sales, and generating reports.
-  All data—such as sales history and inventory records—is stored in a central database. The system also includes 
-  a QR scanner to quickly read product info and a QR printer to create labels for new items. A recommender feature 
-  suggests products to restock or promote, while a reporting tool helps store owners track business performance.
-  Overall, this setup makes daily operations faster, more accurate, and easier to manage.
+  The figure explains how the different parts of the Sales and Inventory Management System (SIMS) work together to help both the store and its customers.
+
+At the core is the Web-Based System, where the Store Owner or Admin manages inventory, sales, and reports. The Staff handles sales using the mobile app by scanning QR codes, which also updates the inventory automatically. Meanwhile, Customers can view and reserve products online using the reservation page.
+
+The web and mobile databases are synced to keep all transactions and records up to date. The system also includes a QR scanner and printer to tag and scan products easily. A recommender module helps store owners suggest products, and a report module provides business insights to support better decision-making.
 
 ### Software perspective and functions
   
