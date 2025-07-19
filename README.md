@@ -112,14 +112,11 @@ together to support small clothing store owners with a reliable and modern syste
 
 #### Use Case Diagram
 
-<img width="899" height="898" alt="image" src="https://github.com/user-attachments/assets/02e2e9fe-8352-448c-b7d8-61303e9dd63b" />
+<img width="530" height="837" alt="image" src="https://github.com/user-attachments/assets/6b6bc45b-cc47-48cd-b796-c5dc1482fad7" />
 
 The Use Case Diagram gives a clear view of how users interact with the Sales and Inventory Management System. 
-It highlights two main users: the Store Owner and the Staff. Each of them has access to specific tasks within the system.
-The diagram groups all system functions inside a blue boundary, showing they are part of the system’s main features. 
-Tasks like managing inventory, handling sales transactions, and viewing reports are shown as ovals, representing the 
-key actions users can perform. Arrows between the users and these tasks indicate what each role can do.
-Overall, this diagram helps explain how the system supports day-to-day business activities by showing who does what in a simple, visual way.
+It highlights three main users: the Store Owner and the Staff. Each of them has access to specific tasks within the system.
+The diagram groups all system functions inside a blue boundary, showing they are part of the system’s main features. On the other hand, Customers can go online to view products and reserve items. Tasks like managing inventory, handling sales transactions, and viewing reports are shown as ovals, representing the key actions users can perform. Arrows between the users and these tasks indicate what each role can do. Overall, this diagram helps explain how the system supports day-to-day business activities by showing who does what in a simple, visual way.
 
 
 #### Requirements Analysis
@@ -134,12 +131,14 @@ All data is regularly synced and backed up, ensuring both security and easy acce
 
 #### Context Diagram
 
-<img width="951" height="387" alt="image" src="https://github.com/user-attachments/assets/89b2d0b1-5393-4627-a8a6-34bed322e86c" />
+<img width="948" height="557" alt="image" src="https://github.com/user-attachments/assets/7bf7c5c2-0cd9-4472-b42d-b9eae6a31e84" />
 
-The context diagram shows how the Sales and Inventory Management System (SIMS) connects and exchanges data with its two main users: Admin and Staff. 
+
+The context diagram shows how the Sales and Inventory Management System (SIMS) connects and exchanges data with its three main users: Admin, Staff, and Customer. 
 The Admin manages product information and receives important reports like sales trends, stock lists, and overall sales summaries to help with decision-making. 
 The Staff enters product data and checks the stock list to keep track of inventory.
 SIMS serves as the central system, handling all data input and output to make sure sales and inventory information stays accurate and up-to-date.
+The Customer interacts with the system through the click-and-collect feature, where they can view available products, place a reservation, and receive confirmation for in-store pickup.
 
 
 #### Data Flow Diagram
