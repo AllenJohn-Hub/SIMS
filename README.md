@@ -131,7 +131,8 @@ All data is regularly synced and backed up, ensuring both security and easy acce
 
 #### Context Diagram
 
-<img width="948" height="557" alt="image" src="https://github.com/user-attachments/assets/7bf7c5c2-0cd9-4472-b42d-b9eae6a31e84" />
+<img width="902" height="557" alt="image" src="https://github.com/user-attachments/assets/57f7cf70-6e6d-429a-b8b1-56887fd542cf" />
+
 
 
 The context diagram shows how the Sales and Inventory Management System (SIMS) connects and exchanges data with its three main users: Admin, Staff, and Customer. 
@@ -143,11 +144,12 @@ The Customer interacts with the system through the click-and-collect feature, wh
 
 #### Data Flow Diagram
 
-<img width="955" height="563" alt="image" src="https://github.com/user-attachments/assets/629b250f-e5d3-4994-b4d4-a6061d3da2e1" />
+<img width="998" height="520" alt="image" src="https://github.com/user-attachments/assets/792da39a-f57a-4816-a929-e9df7200ad1c" />
+
 
 The Data Flow Diagram (DFD) shows how data moves through the system and how different parts work together. 
 It maps out the key processes involved in managing products, inventory, and sales records.
-The diagram also shows where data is stored and how it flows between the system and users like the Admin and Staff. 
+The diagram also shows where data is stored and how it flows between the system and users like the Admin, Staff, and Customer. 
 It helps explain how information is collected, updated, and used to generate reports—making sure everything is accurate and organized for smooth business operations.
 
 
